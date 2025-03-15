@@ -1,0 +1,738 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"> 
+        <link href="{{url_for('static',filename='amazon.css')}}" rel="stylesheet" type="text/css">
+    </head>
+    <body   style="background-color: black;">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">PrimeVideo</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle"  href="/home" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">All</a></li>
+                        <li><a class="dropdown-item" href="#">Movies</a></li>
+                        <li><a class="dropdown-item" href="#">Tv Show</a></li>
+                        
+                      </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle"  href="#" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Store</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">All</a></li>
+                        <li><a class="dropdown-item" href="#">Store</a></li>
+                        <li><a class="dropdown-item" href="#">Rent Channel</a></li>
+                        
+                      </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Live Tv</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/signin">SignIn</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/signup">SignUp</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/contactus">contactus</a>
+                  </li>
+                  
+                </ul>
+          
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button></center>
+                    </form>
+              </div>
+            </div>
+          </nav>
+          <!------------------------------------------------------------------------------------------------------------------------------------>
+          <div id="carouselExampleCaptions" class="carousel slide" background>
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                
+                  <video src="{{url_for('static',filename='Tiger 3_ New Promo _ Salman Khan Vs Emraan Hashmi _ Katrina Kaif _ Directed By Maneesh Sharma....mp4')}}" class="object-fit-contain" autoplay></video>
+                
+                
+              </div>
+              <div class="carousel-item">
+                <video src="{{url_for('static',filename='Leo Trailer strikes 25M+ real-time views! 🔥 ▶️  _ Thalapathy Vijay _ Sun TV (1).mp4')}}" class="object-fit-contain" autoplay></video>
+                
+              </div>
+              <div class="carousel-item">
+                <video src="{{url_for('static',filename='JAILER - Release Date Announcement _ Superstar Rajinikanth _ Sun Pictures _ Nelson _ Anirudh.mp4')}}" autoplay></video>
+               
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        <br/>
+        <br/>
+          <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+          <a><h4>Prime</h4><h4>DramaMovie seemore ></h4></a>
+          
+          <div id="carouselExample" class="carousel slide ">
+            <div class="carousel-inner ">
+              <div class="carousel-item active">
+                <div class="card-group ">
+                  <div class="card ab">
+                    <img src="{{url_for('static',filename='av.jpg')}}" class="card-img-top x" alt="..."height=250vh width="100%"style="background-color:black" >
+                    <div class="card-body"style="background-color: black; color:white;">
+                      <h5 class="card-title"><div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Watch with free prime trial
+                        </label>
+                      </div><br/><h4>Avengers</h4><br/>
+                        2023 2hrs30mins...<br/>
+                        Earth's Mightiest Heroes stand as the planet's first line of defense against the most powerful threats in the universe.<br/>
+
+                      </h5>
+                    
+                    </div>
+                  </div>
+                  <div class="card ab">
+                    <img src="{{url_for('static',filename='mj.jpg')}}" class="card-img-top x" alt="..."height=250vh width="100%">
+                    <div class="card-body"style="background-color: black;color:white;">
+                      <h5 class="card-title"><div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Watch with free prime trial
+                        </label>
+                      </div><br/><h4>Mocking Jay </h4><br/>
+                      2023 2hrs30mins...<br/>
+                      It is chronologically the last installment of The Hunger Games series, following 2008's The Hunger Games and 2009's Catching Fire....<br/>
+                    </h5>
+                      
+                    </div>
+                  </div>
+                  <div class="card ab">
+                    <img src="{{url_for('static',filename='sm.jpg')}}" class="card-img-top x" alt="..."height=250vh width="100%">
+                    <div class="card-body"style="background-color: black;color:white;">
+                      <h5 class="card-title"><div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Watch with free prime trial
+                        </label>
+                      </div><br/><h4>SpiderMan</h4><br/>
+                        2023 2hrs30mins<br/>
+                        American teenager Peter Parker, a poor sickly orphan, is bitten by a radioactive spider...<br/>
+
+
+
+                      </h5>
+                      
+                    </div>
+                  </div>
+                  <div class="card ab">
+                    <img src="{{url_for('static',filename='o5.jpg')}}" class="card-img-top x" alt="..."height=250vh width="100%">
+                    <div class="card-body"style="background-color: black;color:white;">
+                      <h5 class="card-title"><div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Watch with free prime trial
+                        </label>
+                      </div><br/><h4>Ps-1</h4><br/>
+                      2023 2hrs30mins...<br/>
+                      The story revolves around Vandiyathevan, a charming, brave and courageous young man who sets out across the Chola land to deliver a message....</h5>
+                      
+                    </div>
+                  </div>
+                  
+                 
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card-group">
+                  <div class="card ab">
+                    <img src="{{url_for('static',filename='o5.jpg')}}" class="card-img-top x" alt="..."height=250vh width="100%">
+                    <div class="card-body"style="background-color: black;color:white;">
+                      <h5 class="card-title"><div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Watch with free prime trial
+                        </label>
+                      </div><br/><h4>Red</h4><br/>
+                        2023 2hrs30mins<br/>
+                        A remake of the Tamil film Thadam (2019), it follows a murder investigation involving a civil engineer and his lookalike as prime suspects....
+
+                    
+                      </h5>
+                      
+                    </div>
+                  </div>
+                  <div class="card ab">
+                    <img src="{{url_for('static',filename='Pushpa-1.jpg')}}" class="card-img-top x" alt="..."height=250vh width="100%">
+                    <div class="card-body"style="background-color: black;color:white;">
+                      <h5 class="card-title"><div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Watch with free prime trial
+                        </label>
+                      </div><br/><h4>Pushpa</h4><br/>
+                      2023 2hrs30mins<br/>the film depicts the rise of a coolie Pushpa Raj in the smuggling syndicate of red sandalwood, a rare ....</h5>
+                      
+                    </div>
+                  </div>
+                  <div class="card ab">
+                    <img src="{{url_for('static',filename='vi.jpg')}}" class="card-img-top x" alt="..."height=250vh width="100%">
+                    <div class="card-body"style="background-color: black;color:white;">
+                      <h5 class="card-title"><div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Watch with free prime trial
+                        </label>
+                      </div><br/><h4>Vikram</h4><br/>
+                      2022 1hr30mins<br/>Vikram is a 2022 Indian Tamil-language action thriller film directed by Lokesh Kanagaraj.</h5>
+                     
+                    </div>
+                  </div>
+                  <div class="card ab">
+                    <img src="{{url_for('static',filename='silambarasan_eswaran_preview_hd_eswaran.jpg')}}" class="card-img-top x" alt="..."height=250vh width="100%">
+                    <div class="card-body"style="background-color: black;color:white;">
+                      <h5 class="card-title"><div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Watch with free prime trial
+                        </label>
+                      </div><br/><h4>Eswaren</h4><br>
+                      2016 2hr15mins <br/>
+                      The film released on 14 January 2021, coinciding with Pongal. The film received mixed reviews from critics and was an average success....</h5>
+                      
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card-group">
+                  <div class="card ab">
+                    <img src="{{url_for('static',filename='vada-chennai-stills-photos-pictures-170.jpg')}}" class="card-img-top x" alt="..."height=250vh width="100%">
+                    <div class="card-body"style="background-color: black;color:white;">
+                      <h5 class="card-title"><div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Watch with free prime trial
+                        </label>
+                      </div><br/><h4>Vada Chennai</h4><br/>
+                      2021 2hrs45mins<br/>
+                      Vetrimaaran developed the story of Vada Chennai in 2003 when he met an unnamed person in the streets of North Chennai...</h5>
+                      
+                    </div>
+                  </div>
+                  <div class="card ab">
+                    <img src="{{url_for('static',filename='jilla-posters.jpg')}}" class="card-img-top x" alt="..."height=250vh width="100%" style="background-color: black;">
+                    <div class="card-body"style="background-color: black;color:white;">
+                      <h5 class="card-title"><div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Watch with free prime trial
+                        </label>
+                      </div><br/><h4>Jilla</h4><br/>
+                        2015 2hr15mins<br/>
+                        A district is an area of a town or country which has been given official boundaries for the purpose of administration....
+                      </h5>
+                      
+                    </div>
+                  </div>
+                  <div class="card ab">
+                    <img src="{{url_for('static',filename='o5.jpg')}}" class="card-img-top x" alt="..."height=250vh width="100%">
+                    <div class="card-body"style="background-color: black;color:white;">
+                      <h5 class="card-title"><div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Watch with free prime trial
+                        </label>
+                      </div><br/><h4>PS-1</h4><br/>2023 2hrs30mins...<br/>
+                        The story revolves around Vandiyathevan, a charming, brave and courageous young man who sets out across the Chola land to deliver a message....
+                      </h5>
+                      
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="card ab">
+                    <img src="{{url_for('static',filename='Pushpa-1.jpg')}}" class="card-img-top x" alt="..."height=250vh width="100%">
+                    <div class="card-body"style="background-color: black;color:white;">
+                      <h5 class="card-title"><div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Watch with free prime trial
+                        </label>
+                      </div><br/><h4>Pushpa</h4><br/>
+                        2023 2hrs30mins<br/>the film depicts the rise of a coolie Pushpa Raj in the smuggling syndicate of red sandalwood, a rare ....
+                        </h5>
+                      
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          </section>
+          <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+          
+          
+          <hr class="z">
+          <div id="carouselExample1" class="carousel slide ">
+            <div class="carousel-inner ">
+              <div class="carousel-item active">
+                <div class="card-group" >
+                  <div class="card ab" style="background-color: black;">
+                    <img src="{{url_for('static',filename='Singham.jpg')}}" class="card-img-top xx" alt="..."height=450vh width="100%" >
+                    <div class="card-body"style="background-color: black;color:white;">
+                      <h5 class="card-title"><div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Watch with free prime trial
+                        </label>
+                      </div><br/><h4>Singham</h4><br/>
+                        2010 2hrs30mins...<br/>
+                        Singam ( transl. Lion) is a 2010 Indian Tamil-language action film written and directed by Hari, and produced by K. E. Gnanavel Raja...
+                      </h5>
+                    
+                    </div>
+                  </div>
+                  <div class="card ab">
+                    <img src="{{url_for('static',filename='Darbar-Movie-Wallpapers-03.jpg')}}" class="card-img-top xx" alt="..."height=450vh width="100%">
+                    <div class="card-body"style="background-color: black;color:white;">
+                      <h5 class="card-title"><div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Watch with free prime trial
+                        </label>
+                      </div><br/><h4>Darbar </h4><br/>
+                      2020 2hrs30mins...<br/>
+                      Darbaris a 2020 Indian Tamil-language action thriller film written and directed by AR Murugadoss, and produced by Allirajah Subaskaran under the banner Lyca Productions...<br/>
+                    </h5>
+                      
+                    </div>
+                  </div>
+                  <div class="card ab">
+                    <img src="{{url_for('static',filename='joe.jpg')}}" class="card-img-top xx" alt="..."height=450vh width="100%">
+                    <div class="card-body"style="background-color: black;color:white;">
+                      <h5 class="card-title"><div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Watch with free prime trial
+                        </label>
+                      </div><br/><h4>Joe</h4><br/>
+                        2023 2hrs30mins<br/>
+                        Joe is a 2023 Indian Tamil-language romantic drama film written and directed by Hariharan Ram S...<br/>
+
+
+
+                      </h5>
+                      
+                    </div>
+                  </div>
+                  <div class="card ab">
+                    <img src="{{url_for('static',filename='park.jpg')}}" class="card-img-top xx" alt="..."height=450vh width="100%">
+                    <div class="card-body"style="background-color: black;color:white;">
+                      <h5 class="card-title"><div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Watch with free prime trial
+                        </label>
+                      </div><br/><h4>parking</h4><br/>
+                      2023 2hrs30mins...<br/>
+                      Parking is a 2023 Indian Tamil-language drama thriller film written and directed by Ramkumar Balakrishnan in his directorial debut...</h5>
+                      
+                    </div>
+                  </div>
+                  
+                 
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card-group">
+                  <div class="card ab">
+                    <img src="{{url_for('static',filename='Kaathal.jpg')}}" class="card-img-top xx" alt="..."height=450vh width="100%">
+                    <div class="card-body"style="background-color: black;color:white;">
+                      <h5 class="card-title"><div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Watch with free prime trial
+                        </label>
+                      </div><br/><h4>kaathal</h4><br/>
+                        2023 2hrs30mins<br/>
+                        Kaathal – The Core is a 2023 Indian Malayalam-language drama film[2] directed by Jeo Baby and written by Adarsh Sukumaran and Paulson Skaria...
+
+                    
+                      </h5>
+                      
+                    </div>
+                  </div>
+                  <div class="card ab">
+                    <img src="{{url_for('static',filename='mark.jpg')}}" class="card-img-top xx" alt="..."height=450vh width="100%">
+                    <div class="card-body"style="background-color: black;color:white;">
+                      <h5 class="card-title"><div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Watch with free prime trial
+                        </label>
+                      </div><br/><h4>Mark Antony</h4><br/>
+                      2023 2hrs30mins<br/>Mark Antony is a 2023 Indian Tamil-language science fiction action comedy film directed by Adhik Ravichandran and produced by S. Vinod Kumar under Mini Studio...</h5>
+                      
+                    </div>
+                  </div>
+                  <div class="card ab">
+                    <img src="{{url_for('static',filename='ratchasan.jpg')}}" class="card-img-top xx" alt="..."height=450vh width="100%">
+                    <div class="card-body"style="background-color: black;color:white;">
+                      <h5 class="card-title"><div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Watch with free prime trial
+                        </label>
+                      </div><br/><h4>Ratchsan</h4><br/>
+                      2018 1hr30mins<br/>Ratsasan (transl. Demon; pronounced [ராட்சசன்]) is a 2018 Indian Tamil-language crime thriller film[2] directed by Ram Kumar, of Mundasupatti (2014) fame. </h5>
+                     
+                    </div>
+                  </div>
+                  <div class="card ab">
+                    <img src="{{url_for('static',filename='dora.jpg')}}" class="card-img-top xx" alt="..."height=450vh width="100%">
+                    <div class="card-body"style="background-color: black;color:white;">
+                      <h5 class="card-title"><div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Watch with free prime trial
+                        </label>
+                      </div><br/><h4>Dora</h4><br>
+                      2016 2hr15mins <br/>
+                      Dora the Explorer is an American media franchise centered on an eponymous animated interactive fourth wall children's television series created by Chris Gifford...</h5>
+                      
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card-group">
+                  <div class="card ab">
+                    <img src="{{url_for('static',filename='anjaan.jpg')}}" class="card-img-top xx" alt="..."height=450vh width="100%">
+                    <div class="card-body"style="background-color: black;color:white;">
+                      <h5 class="card-title"><div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Watch with free prime trial
+                        </label>
+                      </div><br/><h4>Anjaan</h4><br/>
+                      2014 2hrs45mins<br/>
+                      Anjaan is a 2014 Indian Tamil-language action film written and directed by N. Lingusamy and produced under his banner Thirupathi Brothers...</h5>
+                      
+                    </div>
+                  </div>
+                  <div class="card ab">
+                    <img src="{{url_for('static',filename='comali.jpg')}}" class="card-img-top xx" alt="..."height=450vh width="100%">
+                    <div class="card-body"style="background-color: black;color:white;">
+                      <h5 class="card-title"><div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Watch with free prime trial
+                        </label>
+                      </div><br/><h4>Comali</h4><br/>
+                        2015 2hr15mins<br/>
+                        After waking up from a coma which stretches for 16 years, The protagonist Jeyam Ravi...
+                      </h5>
+                      
+                    </div>
+                  </div>
+                  <div class="card ab">
+                    <img src="{{url_for('static',filename='aylaan.jpg')}}" class="card-img-top xx" alt="..."height=450vh width="100%">
+                    <div class="card-body"style="background-color: black;color:white;">
+                      <h5 class="card-title"><div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Watch with free prime trial
+                        </label>
+                      </div><br/><h4>Aylaan</h4><br/>2024 2hrs30mins...<br/>
+                      Ayalaan is a 2024 Indian Tamil-language science fiction film written and directed by R. Ravikumar, and produced by Kotapadi J. Rajesh under KJR Studios...
+                      </h5>
+                      
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="card ab">
+                    <img src="{{url_for('static',filename='hpotter.jpg')}}" class="card-img-top xx" alt="..."height=450vh width="100%">
+                    <div class="card-body"style="background-color: black;color:white;">
+                      <h5 class="card-title"><div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Watch with free prime trial
+                        </label>
+                      </div><br/><h4>
+                        Harry Potter
+                      </h4><br/>
+                        2010 2hrs30mins<br/>The story begins when 11-year-old orphan Harry discovers that his parents were wizards and he starts his education in magic at Hogwart's School of Witchcraft and Wizardry...
+                        </h5>
+                      
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample1" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample1" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          </section>
+          <!-------------------------------------------------------------------------------------------------------------------------------------->
+          <hr class="z">
+          <div id="carouselExample2" class="carousel slide ">
+            <div class="carousel-inner ">
+              <div class="carousel-item active">
+                <div class="card-group" >
+                  <div class="card ab" style="background-color: black;">
+                    <video src="{{url_for('static',filename='Marvel Avengers_ Infinity War Official Trailer.mp4')}}" class="object-fit-contain" autoplay></video>
+                    <div class="card-body"style="background-color: black;color:white;">
+                      <h5 class="card-title"><div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Watch with free prime trial
+                        </label>
+                      </div><br/><h4>Avengers</h4><br/>
+                        2023 2hrs30mins...<br/>
+                        Earth's Mightiest Heroes stand as the planet's first line of defense against the most powerful threats in the universe.<br/>
+
+                      </h5>
+                    
+                    </div>
+                  </div>
+                  <div class="card ab">
+
+                    <video src="{{url_for('static',filename=' The Hunger Games_ Mockingjay Part 1.mp4')}}" class="object-fit-contain" autoplay></video>
+                    <div class="card-body"style="background-color: black;color:white;">
+                      <h5 class="card-title"><div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Watch with free prime trial
+                        </label>
+                      </div><br/><h4>Mocking Jay </h4><br/>
+                      2023 2hrs30mins...<br/>
+                      It is chronologically the last installment of The Hunger Games series, following 2008's The Hunger Games and 2009's Catching Fire....<br/>
+                    </h5>
+                      
+                    </div>
+                  </div>
+                  <div class="card ab">
+                    <video src="{{url_for('static',filename='Marvel -Man 2 - Be Greater. Together. Trailer I PS5 Games.mp4')}}" class="object-fit-contain" autoplay></video>
+                    <div class="card-body"style="background-color: black;color:white;">
+                      <h5 class="card-title"><div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Watch with free prime trial
+                        </label>
+                      </div><br/><h4>SpiderMan</h4><br/>
+                        2023 2hrs30mins<br/>
+                        American teenager Peter Parker, a poor sickly orphan, is bitten by a radioactive spider...<br/>
+
+
+
+                      </h5>
+                      
+                    </div>
+                  </div>
+                  <div class="card ab">
+                    <video src="{{url_for('static',filename='Ponniyin Selvan Part 1 - Official Hindi Trailer _ Prime Video India.mp4')}}" class="object-fit-contain" autoplay></video>
+                    <div class="card-body"style="background-color: black;color:white;">
+                      <h5 class="card-title"><div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Watch with free prime trial
+                        </label>
+                      </div><br/><h4>Ps-1</h4><br/>
+                      2023 2hrs30mins...<br/>
+                      The story revolves around Vandiyathevan, a charming, brave and courageous young man who sets out across the Chola land to deliver a message....</h5>
+                      
+                    </div>
+                  </div>
+                  
+                 
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card-group">
+                  <div class="card ab">
+                    <video src="{{url_for('static',filename='RED Official Teaser _ Ram Pothineni _ Nivetha Pethuraj _ Malvika Sharma _ Amrita _ Kishore Tirumala.mp4')}}" class="object-fit-contain" autoplay></video>
+                    <div class="card-body"style="background-color: black;color:white;">
+                      <h5 class="card-title"><div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Watch with free prime trial
+                        </label>
+                      </div><br/><h4>Red</h4><br/>
+                        2023 2hrs30mins<br/>
+                        A remake of the Tamil film Thadam (2019), it follows a murder investigation involving a civil engineer and his lookalike as prime suspects....
+
+                    
+                      </h5>
+                      
+                    </div>
+                  </div>
+                  <div class="card ab">
+                    <video src="{{url_for('static',filename='Pushpa Official Trailer (Tamil) _ Allu Arjun _ Rashmika _ Fahadh Faasil _ Sukumar _ DSP _ 17th Dec.mp4')}}" class="object-fit-contain" autoplay></video>
+                    <div class="card-body"style="background-color: black;color:white;">
+                      <h5 class="card-title"><div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Watch with free prime trial
+                        </label>
+                      </div><br/><h4>Pushpa</h4><br/>
+                      2023 2hrs30mins<br/>the film depicts the rise of a coolie Pushpa Raj in the smuggling syndicate of red sandalwood, a rare ....</h5>
+                      
+                    </div>
+                  </div>
+                  <div class="card ab">
+                    <video src="{{url_for('static',filename='VIKRAM - Official Trailer _ Kamal Haasan _ VijaySethupathi, FahadhFaasil _ LokeshKanagaraj _ Anirudh.mp4')}}" class="object-fit-contain" autoplay></video>
+                    <div class="card-body"style="background-color: black;color:white;">
+                      <h5 class="card-title"><div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Watch with free prime trial
+                        </label>
+                      </div><br/><h4>Vikram</h4><br/>
+                      2022 1hr30mins<br/>Vikram is a 2022 Indian Tamil-language action thriller film directed by Lokesh Kanagaraj.</h5>
+                     
+                    </div>
+                  </div>
+                  <div class="card ab">
+                    <video src="{{url_for('static',filename='Eeswaran Official Motion Poster _ Silambarasan TR _ Susienthiran _ Thaman S.mp4')}}" class="object-fit-contain" autoplay></video>
+                    <div class="card-body"style="background-color: black;color:white;">
+                      <h5 class="card-title"><div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Watch with free prime trial
+                        </label>
+                      </div><br/><h4>Eswaren</h4><br>
+                      2016 2hr15mins <br/>
+                      The film released on 14 January 2021, coinciding with Pongal. The film received mixed reviews from critics and was an average success....</h5>
+                      
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card-group">
+                  <div class="card ab">
+                    <video src="{{url_for('static',filename='VADACHENNAI - Official Teaser (Tamil) _ Dhanush _ Vetri Maaran _ Santhosh Narayanan (2).mp4')}}" class="object-fit-contain" autoplay></video>
+                    <div class="card-body"style="background-color: black;color:white;">
+                      <h5 class="card-title"><div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Watch with free prime trial
+                        </label>
+                      </div><br/><h4>Vada Chennai</h4><br/>
+                      2021 2hrs45mins<br/>
+                      Vetrimaaran developed the story of Vada Chennai in 2003 when he met an unnamed person in the streets of North Chennai...</h5>
+                      
+                    </div>
+                  </div>
+                  <div class="card ab">
+                    <video src="{{url_for('static',filename='Jilla Official Teaser 3 HD _ Ilayathalapathy Vijay, Mohanlal.mp4')}}" class="object-fit-contain" autoplay></video>
+                    <div class="card-body"style="background-color: black;color:white;">
+                      <h5 class="card-title"><div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Watch with free prime trial
+                        </label>
+                      </div><br/><h4>Jilla</h4><br/>
+                        2015 2hr15mins<br/>
+                        A district is an area of a town or country which has been given official boundaries for the purpose of administration....
+                      </h5>
+                      
+                    </div>
+                  </div>
+                  <div class="card ab">
+                    <video src="{{url_for('static',filename='Ponniyin Selvan Part 1 - Official Hindi Trailer _ Prime Video India.mp4')}}" class="object-fit-contain" autoplay></video>
+                    <div class="card-body"style="background-color: black;color:white;">
+                      <h5 class="card-title"><div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Watch with free prime trial
+                        </label>
+                      </div><br/><h4>PS-1</h4><br/>2023 2hrs30mins...<br/>
+                        The story revolves around Vandiyathevan, a charming, brave and courageous young man who sets out across the Chola land to deliver a message....
+                      </h5>
+                      
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="card ab">
+                    <video src="{{url_for('static',filename='Pushpa Official Trailer (Tamil) _ Allu Arjun _ Rashmika _ Fahadh Faasil _ Sukumar _ DSP _ 17th Dec.mp4')}}" class="object-fit-contain" autoplay></video>
+                    <div class="card-body"style="background-color: black;color:white;">
+                      <h5 class="card-title"><div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Watch with free prime trial
+                        </label>
+                      </div><br/><h4>Pushpa</h4><br/>
+                        2023 2hrs30mins<br/>the film depicts the rise of a coolie Pushpa Raj in the smuggling syndicate of red sandalwood, a rare ....
+                        </h5>
+                      
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          </section>
+          <!-------------------------------------------------------------------------------------------------------------------------------------->
+          
+          <section class="vv">
+            <center><img src="{{url_for('static',filename='Prime-Video-logo-1300x731.webp')}}" height="100vh" width="28%"></center>
+            <p><center>Terms and privacy Notice     Send us Feedback       Help    (c) 1996-2024,Amazon.com,Inc. or its affilates.</p></cenetr>
+          </section>
+
+
+
+
+
+
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    </body>
+</html>
